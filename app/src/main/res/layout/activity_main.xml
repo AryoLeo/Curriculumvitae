@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="118dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tentang_saya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Tentang Saya"
+            android:fontFamily="@font/calibribold"
+            android:textSize="18sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/tentang_saya"
+            android:background="#242426"></View>
+
+        <TextView
+            android:id="@+id/tentang_saya2"
+            android:layout_below="@id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Saya adalah orang yang kreatif, berkomitmen dan memiliki ketertarikan di bidang seni. Saya memiliki keahlian sebagai Graphic Design, Photography dan Videography. Dengan
+keahlian yang saya miliki, saya dapat membuat  media cetak
+dan media digital. Pengalaman yang saya miliki dapat mem
+bantu untuk proses bekerja yang lebih optimal."
+            android:fontFamily="@font/calibriregular"
+            android:textSize="12sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/magang"
+            android:layout_below="@id/tentang_saya2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Magang"
+            android:fontFamily="@font/calibribold"
+            android:textSize="18sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/magang"
+            android:background="#242426"></View>
+
+        <TextView
+            android:id="@+id/kerja1"
+            android:layout_below="@id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Editor (Kementrian Kesehatan)"
+            android:fontFamily="@font/calibribold"
+            android:textSize="13sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/ket_magang"
+            android:layout_below="@id/kerja1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Melakukan pengeditan video dan membantu pengambilan
+video kesehatan pada balita. Video tersebut digunakan
+untuk Kementrian Kesehatan Republik Indonesia."
+            android:fontFamily="@font/calibriregular"
+            android:textSize="12sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/pengalaman"
+            android:layout_below="@id/ket_magang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Pengalaman"
+            android:fontFamily="@font/calibribold"
+            android:textSize="18sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/pengalaman"
+            android:background="#242426"></View>
+
+        <TextView
+            android:id="@+id/pengalaman1"
+            android:layout_below="@id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Editor (Kementrian Kesehatan)"
+            android:fontFamily="@font/calibribold"
+            android:textSize="13sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/ket_pengalaman1"
+            android:layout_below="@id/pengalaman1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Melakukan proses marketing dalam bentuk foto maupun
+video. Foto dan video tersebut dibuat untuk menarik minat
+pembeli di instagram, youtube, dan juga tiktok.."
+            android:fontFamily="@font/calibriregular"
+            android:textSize="12sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/pengalaman2"
+            android:layout_below="@id/ket_pengalaman1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Editor (Kementrian Kesehatan)"
+            android:fontFamily="@font/calibribold"
+            android:textSize="13sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/ket_pengalaman2"
+            android:layout_below="@id/pengalaman2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Melakukan proses marketing dalam bentuk foto maupun
+video. Foto dan video tersebut dibuat untuk menarik minat
+pembeli di instagram, youtube, dan juga tiktok."
+            android:fontFamily="@font/calibriregular"
+            android:textSize="12sp"
+            android:textColor="@color/bg1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="415dp"
+        android:layout_height="120dp"
+        android:background="@color/bg1"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="ARYO LEONANDI"
+            android:fontFamily="@font/calibribold"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="20dp"
+            />
+
+        <TextView
+            android:id="@+id/title_karir"
+            android:layout_below="@id/title_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="UI UX Designer"
+            android:fontFamily="@font/calibriregular"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="20dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400px"
+        android:layout_height="match_parent"
+        android:background="@color/bg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/photo_profile"
+            android:layout_width="238px"
+            android:layout_height="238px"
+            android:src="@drawable/photo1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+        <LinearLayout
+            android:id="@+id/biodata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo_profile"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Kontak"
+                android:textColor="#242426"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="#242426"></View>
+
+            <LinearLayout
+                android:id="@+id/kontak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line4"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/icon1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/calibriregular"
+                        android:text="0895326139970"
+                        android:textColor="#242426"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/kontak2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/icon2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/calibriregular"
+                        android:text="Leonandiaryo@gmail.com"
+                        android:textColor="#242426"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/icon3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/calibriregular"
+                        android:text="Bekasi, Jawa Barat."
+                        android:textColor="#242426"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/portofolio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kontak"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Portofolio"
+                android:textColor="#242426"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line5"
+                android:layout_below="@id/portofolio"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="#242426"></View>
+
+            <LinearLayout
+                android:id="@+id/sosial_media"
+                android:layout_below="@id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/icon4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/calibriregular"
+                        android:text="instagram.com/aryoleo2"
+                        android:textColor="#242426"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/icon5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/calibriregular"
+                        android:text="Aryo Leonandi"
+                        android:textColor="#242426"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Pendidikan"
+                android:textColor="#242426"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="#242426"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibribold"
+                android:text="SMKN 48 Jakarta"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibriregular"
+                android:text=" 2017- 2020 (Multimedia)"
+                android:layout_marginBottom="10dp"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibribold"
+                android:text=" Universitas Pelita Bangsa"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibriregular"
+                android:text="2022 - 2026 (Teknik Informtika)"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/kemampuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Kemampuan"
+                android:textColor="#242426"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line7"
+                android:layout_below="@id/kemampuan"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="#242426"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Figma"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/skill1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Adobe Photoshop"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/skill2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/calibribold"
+                android:text="Adobe Ilusllator"
+                android:textColor="#242426"
+                android:textSize="10sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/skill2" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
